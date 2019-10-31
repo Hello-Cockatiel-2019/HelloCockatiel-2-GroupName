@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import Page2 from './Page2';
+import './pics.css';
+import Picture from './Picture';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Page2 />, document.getElementById('pageinfo'));
+ReactDOM.render(<Picture />, document.getElementById('pics'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

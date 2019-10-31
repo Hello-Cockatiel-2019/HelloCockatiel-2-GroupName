@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Allan&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #E5E5E5;
+}
+
+.navbar{
+    border: 0;
+    border-radius: 0;
+
+}
+
+.nav-style {
+    background-color: #474D4F;
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+ul.navbar-nav li a {
+    border-left: 3px solid #C4C4C4;
+    padding-top: 50px;
+    padding-bottom: 20.5px;
+    text-decoration: none;
+    
+}
+
+ul.navbar-nav li a:hover {
+    border-left: 3px solid #C4C4C4;
+    padding-top: 50px;
+    padding-bottom: 20.5px;
+    background-color: #3F3F3F;
+    color: white !important;
+}

@@ -1,19 +1,17 @@
-import './App.css';
+import './pics.css';
 
 import Navbar from './Components/Navbar'
 
 import React, { Component } from 'react'
-import Foxpic from './Components/Foxpic';
-import Content from './Components/Content';
+import Carousel from './Components/Carousel';
 
-export default class App extends Component {
+export default class Picture extends Component {
   render() {
     return (
       <div>
         <div>
           <Navbar />
-          <Foxpic />
-          <Content />
+          <Carousel />
         </div>
       </div>
     )
