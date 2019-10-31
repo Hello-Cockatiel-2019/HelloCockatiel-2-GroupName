@@ -4,37 +4,50 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'jquery/dist/jquery.min.js'
 import 'bootstrap/dist/js/bootstrap.min.js'
 
-const NavItem1 = styled.ul `
-    padding-left: 30%;
-    list-style-type: none;
-    font-size: 20px;
+const Logo = styled.img `
+    width: 60px;
+    height: 60px;
 `
+const LogoText = styled.a `
+    color: #FDBE90;
+    font-family: 'Allan', cursive;
+    font-size: 40px;
+    text-decoration: none !important;
+`
+const NavItem = styled.a `
+    font-size: 40px;
+    font-family: 'Allan', cursive;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+`
+
 
 export default class Navbar extends React.Component {
     render() {
         return (
-            <div className="banner">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-                    <a class="navbar-brand" href="#">
-                        <img src="/images/fox-logo.png" alt="Logo" />
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <div>
+                <nav class="navbar navbar-expand-lg nav-style">
+                    <LogoText class="navbar-brand" href="index.html">
+                        <Logo src="/images/fox-logo.png" alt="Logo"></Logo>
+                        FOXHOUND
+                    </LogoText>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <NavItem1 class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#">INFO</a>
+
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <NavItem class="nav-link" href="info.html" style={{color: "#FDBE90"}}>INFO</NavItem>
                             </li>
-                        </NavItem1>
-                        <NavItem1 class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="#">GALLERY</a>
+                                <NavItem class="nav-link" href="pics.html" style={{paddingRight: "0.5em"},{color: "#FDBE90"}}>PICS</NavItem>
                             </li>
-                        </NavItem1>
+                        </ul>
                     </div>
                 </nav>
             </div>
-        )
-    }
-}
+                )
+            }
+        }
