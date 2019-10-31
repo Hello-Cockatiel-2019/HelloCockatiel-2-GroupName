@@ -7,6 +7,7 @@ import Navbar from './Components/Navbar'
 
 import React, { Component } from 'react'
 import Foxpic from './Components/Foxpic';
+import Content from './Components/Content';
 
 export default class App extends Component {
   render() {
@@ -15,6 +16,7 @@ export default class App extends Component {
         <div>
           <Navbar></Navbar>
           <Foxpic></Foxpic>
+          <Content></Content>
         </div>
       </div>
     )

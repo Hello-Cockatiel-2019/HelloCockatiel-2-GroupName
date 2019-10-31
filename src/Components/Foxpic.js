@@ -4,20 +4,19 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'jquery/dist/jquery.min.js'
 import 'bootstrap/dist/js/bootstrap.min.js'
 
-const FoxImage = styled.div`
+const FoxImage = styled.img`
     position: absolute;
-    width: 364px;
-    height: 550px;
-    left: 187px;
-    top: 215px;
-    background: #C4C4C4;
+    left: 200px;
+    top: 190px;
+    height: 350px;
+    width: 350px;
 `
 
 export default class Foxpic extends React.Component {
     render() {
         return(
             <div>
-
+                <FoxImage src="/images/image.jpg" alt="Fox image"></FoxImage>
             </div>
         )
     }
