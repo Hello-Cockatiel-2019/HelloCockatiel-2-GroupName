@@ -29,7 +29,7 @@ body, html {
 ul.navbar-nav li a {
     border-left: 3px solid #C4C4C4;
     padding-top: 50px;
-    padding-bottom: 19.5px;
+    padding-bottom: 20.5px;
     text-decoration: none;
     
 }
@@ -37,7 +37,7 @@ ul.navbar-nav li a {
 ul.navbar-nav li a:hover {
     border-left: 3px solid #C4C4C4;
     padding-top: 50px;
-    padding-bottom: 19.5px;
+    padding-bottom: 20.5px;
     background-color: #3F3F3F;
     color: white !important;
 }

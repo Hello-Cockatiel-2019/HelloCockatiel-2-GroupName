@@ -5,8 +5,8 @@ import 'jquery/dist/jquery.min.js'
 import 'bootstrap/dist/js/bootstrap.min.js'
 
 const Logo = styled.img `
-    width: 60px;
-    height: 60px;
+    width: 95px;
+    height: 65px;
 `
 const LogoText = styled.a `
     color: #FDBE90;
@@ -29,8 +29,8 @@ export default class Navbar extends React.Component {
             <div>
                 <nav class="navbar navbar-expand-lg nav-style">
                     <LogoText class="navbar-brand" href="index.html">
-                        <Logo src="/images/fox-logo.png" alt="Logo"></Logo>
-                        FOXHOUND
+                        <Logo src="/images/Projectlogo 3.png" alt="Logo"></Logo>
+                        FOX<span style={{color: "#FD8127"}}>HOUND</span>
                     </LogoText>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -42,7 +42,7 @@ export default class Navbar extends React.Component {
                                 <NavItem class="nav-link" href="info.html" style={{color: "#FDBE90"}}>INFO</NavItem>
                             </li>
                             <li class="nav-item">
-                                <NavItem class="nav-link" href="pics.html" style={{paddingRight: "0.5em"},{color: "#FDBE90"}}>PICS</NavItem>
+                                <NavItem class="nav-link" href="pics.html" style={{paddingRight: "0.5em"},{color: "#FD8127"}}>PICS</NavItem>
                             </li>
                         </ul>
                     </div>
