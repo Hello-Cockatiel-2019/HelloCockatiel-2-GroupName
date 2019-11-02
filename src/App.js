@@ -19,17 +19,20 @@ export default class App extends Component {
 				<div>
 					<Navbar />
 					<div className="container justify-content-center">
-						<div className="row mt-4" style={{position: 'absolute'}, {zIndex: '-1'}}>
-							<div className="col-lg-4">
+						<div className="row mt-4">
+							<div className="col-lg-4 mt-2">
 								<Foxpic />
 							</div>
 							<div className="col-lg-8">
 								<Content />
 							</div>
-							<Animation />
+							<div style={{position: 'absolute', marginTop: "380px"}}>
+								<Animation />
+							</div>
 						</div>
-						
-						<hr style={{ borderColor: "#C29679" }} />
+
+						<hr style={{ borderColor: "#C29679", marginTop: "200px"}} />
+						<br/>
 						<Carousel/>
 					</div>
 					

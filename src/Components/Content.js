@@ -11,14 +11,14 @@ const Passage = styled.div`
     padding-top: 20px;
     margin-right: 20px;
     padding-bottom: 10px;
-    margin-left: 50px;
+    margin-left: 70px;
     color: #ffffff;
     font-family: 'Itim', cursive;
     font-size: 24px;
 `
 
 const LastLine = styled.span`
-    margin-left: 100px;
+    margin-left: 150px;
 `
 
 

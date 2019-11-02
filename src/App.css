@@ -25,14 +25,14 @@ body, html {
     background-color: #7D7463;
     margin: 0 !important;
     padding: 0 !important;
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
 }
 
 ul.navbar-nav li a {
     border-left: 3px solid #C4C4C4;
     padding-top: 50px;
-    padding-bottom: 20.5px;
+    padding-bottom: 26px;
     text-decoration: none;
     
 }
@@ -40,8 +40,8 @@ ul.navbar-nav li a {
 ul.navbar-nav li a:hover {
     border-left: 3px solid #C4C4C4;
     padding-top: 50px;
-    padding-bottom: 20.5px;
-    background-color: #3F3F3F;
+    padding-bottom: 26px;
+    background-color: #595243;
     color: white !important;
 }
 

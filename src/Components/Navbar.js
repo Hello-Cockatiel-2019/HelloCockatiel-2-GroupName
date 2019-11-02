@@ -5,8 +5,9 @@ import 'jquery/dist/jquery.min.js'
 import 'bootstrap/dist/js/bootstrap.min.js'
 
 const Logo = styled.img `
-    width: 95px;
-    height: 65px;
+    width: 100px;
+    height: 87px;
+    margin-left: 20px;
 `
 const LogoText = styled.a `
     color: #FDBE90;
@@ -39,10 +40,10 @@ export default class Navbar extends React.Component {
                     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item active">
-                                <NavItem class="nav-link" href="/info.html" style={{color: "#FDBE90"}}>INFO</NavItem>
+                                <NavItem class="nav-link" href="#info" style={{color: "#FDBE90"}}>INFO</NavItem>
                             </li>
                             <li class="nav-item">
-                                <NavItem class="nav-link" href="/pics.html" style={{paddingRight: "0.5em"} , {color: "#FD8127"}}>PICS</NavItem>
+                                <NavItem class="nav-link" href="#pics" style={{paddingRight: "0.5em"} , {color: "#FD8127"}}>PICS</NavItem>
                             </li>
                         </ul>
                     </div>
