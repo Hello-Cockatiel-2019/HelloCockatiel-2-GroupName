@@ -54,3 +54,17 @@ ul.navbar-nav li a:hover {
     color: #FD8127 !important;
     text-decoration: none;
 }
+
+.carousel {
+    width: 800px;
+    height: 533px;
+    margin: 0 auto;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}

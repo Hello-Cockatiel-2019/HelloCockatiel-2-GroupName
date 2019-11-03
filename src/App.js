@@ -28,16 +28,16 @@ export default class App extends Component {
 							<div className="col-lg-8">
 								<Content />
 							</div>
-							<div style={{position: 'absolute', marginTop: "380px"}}>
+							<div style={{ position: 'absolute', marginTop: "380px" }}>
 								<Animation />
 							</div>
 						</div>
-						<hr style={{ borderColor: "#C29679", marginTop: "200px"}} />
+						<hr style={{ borderColor: "#C29679", marginTop: "200px" }} />
 					</div>
-					<br/>
+					<br />
 					<div id="info">
-						<br/>
-						<div className="container">	
+						<br />
+						<div className="container">
 							<div className="row">
 								<div className="col-lg-6">
 									<Info />
@@ -46,17 +46,31 @@ export default class App extends Component {
 								<div className="col-lg-5">
 									<Foxpic2 />
 								</div>
-								<div style={{position: 'absolute', marginLeft: "600px", marginTop: "150px"}}>
-									<Header herderText="INFORMATION"/>
+								<div style={{ position: 'absolute', marginLeft: "600px", marginTop: "150px" }}>
+									<Header herderText="INFORMATION" />
 								</div>
 							</div>
-							<hr style={{ borderColor: "#C29679", marginTop: "20px"}} />
+							<hr style={{ borderColor: "#C29679", marginTop: "20px" }} />
 						</div>
 					</div>
-						<br/>
-						<Carousel/>
-					
-					
+					<br />
+					<div id="pics">
+						<br />
+						<div className="container">
+							<div className="text-center">
+								<Header herderText="GALLERY" />
+							</div>
+							<br/>
+							
+								<Carousel />
+							
+						</div>
+
+					</div>
+
+
+
+
 				</div>
 			</div>
 		)
