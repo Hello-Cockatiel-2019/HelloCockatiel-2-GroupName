@@ -10,7 +10,6 @@ const Logo = styled.img `
     margin-left: 20px;
 `
 const LogoText = styled.a `
-    color: #FDBE90;
     font-family: 'Allan', cursive;
     font-size: 40px;
     text-decoration: none !important;
@@ -31,7 +30,7 @@ export default class Navbar extends React.Component {
                 <nav class="navbar navbar-expand-lg nav-style">
                     <LogoText class="navbar-brand" href="/index.html">
                         <Logo src="/images/Projectlogo 3.png" alt="Logo"></Logo>
-                        FOX<span style={{color: "#FD8127"}}>HOUND</span>
+                        <span style={{color: "#FDBE90" }}>FOX</span><span style={{color: "#FD8127"}}>HOUND</span>
                     </LogoText>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>

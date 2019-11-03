@@ -45,7 +45,12 @@ ul.navbar-nav li a:hover {
     color: white !important;
 }
 
-.zindex {
-    z-index: -1;
-    position: absolute;
+.link {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #FD8127 !important;
+    text-decoration: none;
 }
