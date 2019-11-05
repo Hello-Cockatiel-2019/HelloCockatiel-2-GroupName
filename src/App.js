@@ -13,6 +13,7 @@ import Header from './Components/Header'
 import FoxOnGallery from './Components/FoxOnGallery'
 import Carousel from './Components/Carousel'
 import Footer from './Components/Footer'
+import FoxFooter from './Components/FoxFooter'
 
 
 export default class App extends Component {
