@@ -27,7 +27,7 @@ export default class Navbar extends React.Component {
     render() {
         return (
             <div>
-                <nav class="navbar navbar-expand-lg nav-style">
+                <nav class="navbar navbar-expand-lg nav-style fixed-top">
                     <LogoText class="navbar-brand" href="/index.html">
                         <Logo src="/images/Projectlogo 3.png" alt="Logo"></Logo>
                         <span style={{color: "#FDBE90" }}>FOX</span><span style={{color: "#FD8127"}}>HOUND</span>
@@ -42,7 +42,7 @@ export default class Navbar extends React.Component {
                                 <NavItem class="nav-link" href="#info" style={{color: "#FDBE90"}}>INFO</NavItem>
                             </li>
                             <li class="nav-item">
-                                <NavItem class="nav-link" href="#pics" style={{paddingRight: "0.5em"} , {color: "#FD8127"}}>PICS</NavItem>
+                                <NavItem class="nav-link" href="#pics" style={{color: "#FD8127"}}>PICS</NavItem>
                             </li>
                         </ul>
                     </div>

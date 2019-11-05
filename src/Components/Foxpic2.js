@@ -9,7 +9,7 @@ export default class Foxpic2 extends React.Component {
     render() {
         return(
             <div>
-                <img src="/images/foxinfopic.png" style={{width: "500px", height:"729px"}} alt="Image of fox"/>
+                <img src="/images/foxinfopic.png" style={{width: "500px", height:"729px"}} alt="fox"/>
             </div>
         )
     }

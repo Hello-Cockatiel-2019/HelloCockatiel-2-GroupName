@@ -21,8 +21,10 @@ export default class App extends Component {
 		return (
 			<div>
 				<div>
-					<Navbar />
-					<div className="container">
+					<div style={{ marginTop: "100px" }}>
+						<Navbar />
+					</div>
+					<div className="container" id="home">
 						<div className="row mt-4">
 							<div className="col-lg-4 mt-2">
 								<h1 className="heading">WHAT DOES THE FOX MEAN?</h1>
@@ -40,47 +42,55 @@ export default class App extends Component {
 					<br />
 					<div id="info">
 						<br />
-						<div className="container">
-							<div className="row">
-								<div className="col-lg-6">
-									<Info />
+						<div style={{ marginTop: "80px" }}>
+							<br />
+							<div className="container">
+								<div className="row">
+									<div className="col-lg-6">
+										<Info />
+									</div>
+									<div className="col-lg-1"></div>
+									<div className="col-lg-5">
+										<Foxpic2 />
+									</div>
+									<div style={{ position: 'absolute', marginLeft: "600px", marginTop: "150px" }}>
+										<Header herderText="INFORMATION" />
+									</div>
 								</div>
-								<div className="col-lg-1"></div>
-								<div className="col-lg-5">
-									<Foxpic2 />
-								</div>
-								<div style={{ position: 'absolute', marginLeft: "600px", marginTop: "150px" }}>
-									<Header herderText="INFORMATION" />
-								</div>
+								<hr style={{ borderColor: "#C29679", marginTop: "20px" }} />
 							</div>
-							<hr style={{ borderColor: "#C29679", marginTop: "20px" }} />
 						</div>
 					</div>
 					<br />
-					<div id="pics">
-						<br />
-						<div className="container">
-							<div className="row">
-								<div className="col-lg-2"></div>
-								<div className="col-lg-8 text-center">
-									<Header herderText="GALLERY" />
-								</div>
-								<div className="col-lg2"></div>
-								<div style={{position: 'absolute', marginLeft: "55%", marginTop: "-50px", zIndex: '1'}}>
-									<FoxOnGallery />
-								</div>
-							</div>
+					<div>
+						<div id="pics">
 							<br />
-							<div style={{position: 'absolute', marginLeft: '150px', zIndex: '0'}}>
-								<Carousel/>
+							<div style={{ marginTop: "100px" }}>
+								<br/>
+								<div className="container">
+									<div className="row">
+										<div className="col-lg-2"></div>
+										<div className="col-lg-8 text-center">
+											<Header herderText="GALLERY" />
+										</div>
+										<div className="col-lg2"></div>
+										<div style={{ position: 'absolute', marginLeft: "55%", marginTop: "-50px", zIndex: '1' }}>
+											<FoxOnGallery />
+										</div>
+									</div>
+									<br />
+									<div style={{ position: 'absolute', marginLeft: '150px', zIndex: '0' }}>
+										<Carousel />
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div style={{marginTop: '48%', position: 'absolute', marginLeft: "8%"}}>
-						<FoxFooter />
-					</div>
-					<footer style={{marginTop: '55%'}}>
-						<Footer/>
+					<footer style={{marginTop: "55%"}}>
+						<div style={{ position: 'absolute', marginLeft: "8%", marginTop: "-80px" }}>
+							<FoxFooter />
+						</div>
+						<Footer />
 					</footer>
 				</div >
 			</div >

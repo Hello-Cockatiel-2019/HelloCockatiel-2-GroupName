@@ -41,7 +41,7 @@ export default class Info extends React.Component {
                     <br/>
                     <div className="d-flex justify-content-center">
                         <div className="link-bg">
-                            <a href="http://animalcutehistory.blogspot.com/2012/10/blog-post_10.html " target="_blank" className="link">คลิ๊กที่นี่!</a>
+                            <a href="http://animalcutehistory.blogspot.com/2012/10/blog-post_10.html" rel="noopener noreferrer" target="_blank" className="link">คลิ๊กที่นี่!</a>
                         </div>
                    </div>
                 </p>
