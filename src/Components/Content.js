@@ -10,7 +10,7 @@ const FoxContent = styled.div`
 const Passage = styled.div`
     padding-top: 20px;
     margin-right: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     margin-left: 70px;
     color: #ffffff;
     font-family: 'Itim', cursive;

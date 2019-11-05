@@ -12,7 +12,7 @@ export default class FoxOnGallery extends React.Component {
     render() {
         return(
             <div>
-                <FoxGallery src="/images/foxgallery.png" />
+                <FoxGallery src="/images/foxgallery.png" alt="fox above the carousel"/>
             </div>
         )
     }

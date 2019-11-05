@@ -25,12 +25,13 @@ export default class App extends Component {
 					<div className="container">
 						<div className="row mt-4">
 							<div className="col-lg-4 mt-2">
+								<h1 className="heading">WHAT DOES THE FOX MEAN?</h1>
 								<Foxpic />
 							</div>
-							<div className="col-lg-8">
+							<div className="col-lg-8 mt-4">
 								<Content />
 							</div>
-							<div style={{ position: 'absolute', marginTop: "380px" }}>
+							<div style={{ position: 'absolute', marginTop: "400px" }}>
 								<Animation />
 							</div>
 						</div>
@@ -65,17 +66,20 @@ export default class App extends Component {
 									<Header herderText="GALLERY" />
 								</div>
 								<div className="col-lg2"></div>
-								<div style={{position: 'absolute', marginLeft: "50%", marginTop: "-50px"}}>
+								<div style={{position: 'absolute', marginLeft: "55%", marginTop: "-50px", zIndex: '1'}}>
 									<FoxOnGallery />
 								</div>
 							</div>
 							<br />
-							<div style={{position: 'absolute', zIndex: '-1', marginLeft: '150px'}}>
+							<div style={{position: 'absolute', marginLeft: '150px', zIndex: '0'}}>
 								<Carousel/>
 							</div>
 						</div>
 					</div>
-					<footer style={{marginTop: '50%'}}>
+					<div style={{marginTop: '48%', position: 'absolute', marginLeft: "8%"}}>
+						<FoxFooter />
+					</div>
+					<footer style={{marginTop: '55%'}}>
 						<Footer/>
 					</footer>
 				</div >

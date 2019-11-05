@@ -39,7 +39,11 @@ export default class Info extends React.Component {
                 <p className="text-center">
                     แต่ถ้าหากคุณอยากรู้เกี่ยวกับเขาต่อ
                     <br/>
-                   <a href="http://animalcutehistory.blogspot.com/2012/10/blog-post_10.html " target="_blank" className="link">&gt;&gt;คลิ๊กที่นี่!&lt;&lt;</a>
+                    <div className="d-flex justify-content-center">
+                        <div className="link-bg">
+                            <a href="http://animalcutehistory.blogspot.com/2012/10/blog-post_10.html " target="_blank" className="link">คลิ๊กที่นี่!</a>
+                        </div>
+                   </div>
                 </p>
                 <p>
                     <span className="ml-4">และด้วยที่ว่า จิ้งจอกเป็นสัตว์ที่แสดงสีหน้าได้</span>

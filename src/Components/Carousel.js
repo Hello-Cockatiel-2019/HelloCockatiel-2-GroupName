@@ -50,27 +50,27 @@ export default class Carousel extends React.Component {
                     <ul className="d-flex justify-content-center">
                         <li className="slide-indicator">
                             <a href="#carouselFade" role="button" data-slide-to="0" style={{textDecoration: 'none'}}>
-                                <img src="/images/1.png" className="indicator" style={{width: "140px"}}/>
+                                <img src="/images/1.png" className="indicator" style={{width: "140px"}} alt="fox1"/>
                             </a>
                         </li>
                         <li className="slide-indicator">
                             <a href="#carouselFade" role="button" data-slide-to="1" style={{textDecoration: 'none'}}>
-                                <img src="/images/2.png" className="indicator" style={{width: "140px"}}/>
+                                <img src="/images/2.png" className="indicator" style={{width: "140px"}} alt="fox2"/>
                             </a>
                         </li>
                         <li className="slide-indicator">
                             <a href="#carouselFade" role="button" data-slide-to="2" style={{textDecoration: 'none'}}>
-                                <img src="/images/3.png" className="indicator" style={{width: "140px"}}/>
+                                <img src="/images/3.png" className="indicator" style={{width: "140px"}} alt="fox3"/>
                             </a>
                         </li>
                         <li className="slide-indicator">
                             <a href="#carouselFade" role="button" data-slide-to="3" style={{textDecoration: 'none'}}>
-                                <img src="/images/4.png" className="indicator" style={{width: "140px"}}/>
+                                <img src="/images/4.png" className="indicator" style={{width: "140px"}} alt="fox4"/>
                             </a>
                         </li>
                         <li className="slide-indicator">
                             <a href="#carouselFade" role="button" data-slide-to="4" style={{textDecoration: 'none'}}>
-                                <img src="/images/5.png" className="indicator" style={{width: "140px"}}/>
+                                <img src="/images/5.png" className="indicator" style={{width: "140px"}} alt="fox5"/>
                             </a>
                         </li>
                     </ul>

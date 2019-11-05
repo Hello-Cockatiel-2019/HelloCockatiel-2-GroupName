@@ -13,6 +13,8 @@ body, html {
     width: 100%;
     height: 100%;
     background-color: #d9c6a6 !important;
+    scroll-behavior: smooth;
+    transition-duration: 2s;
 }
 
 .navbar{
@@ -45,14 +47,27 @@ ul.navbar-nav li a:hover {
     color: white !important;
 }
 
+.link-bg {
+    background: url('/images/Rectangle20.png') no-repeat;
+    background-size: cover;
+    
+}
+
 .link {
     color: #ffffff !important;
     text-decoration: none;
+    padding: 10px 50px 10px 50px;
 }
 
 .link:hover {
     color: #FD8127 !important;
     text-decoration: none;
+}
+
+.heading {
+    color: #C29679;
+    font-family: 'Allan', cursive;
+    font-size: 37px;
 }
 
 .carousel {
