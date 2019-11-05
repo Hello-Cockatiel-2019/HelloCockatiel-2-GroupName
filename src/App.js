@@ -10,8 +10,9 @@ import Animation from './Components/Animation';
 import Info from './Components/Info'
 import Foxpic2 from './Components/Foxpic2'
 import Header from './Components/Header'
+import FoxOnGallery from './Components/FoxOnGallery'
 import Carousel from './Components/Carousel'
-
+import Footer from './Components/Footer'
 
 
 export default class App extends Component {
@@ -57,22 +58,27 @@ export default class App extends Component {
 					<div id="pics">
 						<br />
 						<div className="container">
-							<div className="text-center">
-								<Header herderText="GALLERY" />
+							<div className="row">
+								<div className="col-lg-2"></div>
+								<div className="col-lg-8 text-center">
+									<Header herderText="GALLERY" />
+								</div>
+								<div className="col-lg2"></div>
+								<div style={{position: 'absolute', marginLeft: "50%", marginTop: "-50px"}}>
+									<FoxOnGallery />
+								</div>
 							</div>
-							<br/>
-							
-								<Carousel />
-							
+							<br />
+							<div style={{position: 'absolute', zIndex: '-1', marginLeft: '150px'}}>
+								<Carousel/>
+							</div>
 						</div>
-
 					</div>
-
-
-
-
-				</div>
-			</div>
+					<footer style={{marginTop: '50%'}}>
+						<Footer/>
+					</footer>
+				</div >
+			</div >
 		)
 	}
 }

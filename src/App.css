@@ -61,10 +61,25 @@ ul.navbar-nav li a:hover {
     margin: 0 auto;
 }
 
+.carousel-item {
+    height: 533px;
+}
+
 .carousel-inner > .item > img {
     margin: 0 auto;
 }
 
-.carousel-indicators {
-    bottom: -50px;
+.slide-indicator {
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
 }
+
+.list {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
