@@ -39,10 +39,13 @@ export default class Navbar extends React.Component {
                     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item active">
+                                <NavItem class="nav-link" href="#home" style={{color: "#FD8127"}}>HOME</NavItem>
+                            </li>
+                            <li class="nav-item">
                                 <NavItem class="nav-link" href="#info" style={{color: "#FDBE90"}}>INFO</NavItem>
                             </li>
                             <li class="nav-item">
-                                <NavItem class="nav-link" href="#pics" style={{color: "#FD8127"}}>PICS</NavItem>
+                                <NavItem class="nav-link" href="#pics" style={{color: "#FDBE90"}}>PICS</NavItem>
                             </li>
                         </ul>
                     </div>
