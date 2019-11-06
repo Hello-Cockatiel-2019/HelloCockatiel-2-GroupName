@@ -21,28 +21,33 @@ export default class App extends Component {
 		return (
 			<div>
 				<div>
-					<div style={{ marginTop: "100px" }}>
+					<div>
 						<Navbar />
 					</div>
-					<div className="container" id="home">
-						<div className="row mt-4">
-							<div className="col-lg-4 mt-2">
-								<h1 className="heading">WHAT DOES THE FOX MEAN?</h1>
-								<Foxpic />
-							</div>
-							<div className="col-lg-8 mt-4">
-								<Content />
-							</div>
-							<div style={{ position: 'absolute', marginTop: "400px" }}>
-								<Animation />
+					<div id="home">
+						<br />
+						<div style={{ marginTop: "40px" }}>
+							<br/>
+							<div className="container">
+								<div className="row mt-4">
+									<div className="col-lg-4 mt-2">
+										<h1 className="heading">WHAT DOES THE FOX MEAN?</h1>
+										<Foxpic />
+									</div>
+									<div className="col-lg-8 mt-4">
+										<Content />
+									</div>
+									<div style={{ position: 'absolute', marginTop: "400px" }}>
+										<Animation />
+									</div>
+								</div>
 							</div>
 						</div>
-						<hr style={{ borderColor: "#C29679", marginTop: "200px" }} />
 					</div>
 					<br />
-					<div id="info">
+					<div id="info" style={{ display: 'none' }}>
 						<br />
-						<div style={{ marginTop: "80px" }}>
+						<div style={{ marginTop: "60px" }}>
 							<br />
 							<div className="container">
 								<div className="row">
@@ -57,16 +62,15 @@ export default class App extends Component {
 										<Header herderText="INFORMATION" />
 									</div>
 								</div>
-								<hr style={{ borderColor: "#C29679", marginTop: "20px" }} />
 							</div>
 						</div>
 					</div>
 					<br />
 					<div>
-						<div id="pics">
+						<div id="pics" style={{ display: 'none' }}>
 							<br />
 							<div style={{ marginTop: "100px" }}>
-								<br/>
+								<br />
 								<div className="container">
 									<div className="row">
 										<div className="col-lg-2"></div>
@@ -79,15 +83,21 @@ export default class App extends Component {
 										</div>
 									</div>
 									<br />
-									<div style={{ position: 'absolute', marginLeft: '150px', zIndex: '0' }}>
-										<Carousel />
+									<div className="row">
+										<div className="col-lg-2"></div>
+										<div className="col-lg-8">
+											<div style={{ zIndex: '0' }}>
+												<Carousel />
+											</div>
+										</div>
+										<div className="col-lg-2"></div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<footer style={{marginTop: "55%"}}>
-						<div style={{ position: 'absolute', marginLeft: "8%", marginTop: "-80px" }}>
+					<footer style={{ marginTop: "200px" }}>
+						<div style={{ position: 'absolute', marginLeft: "8%", marginTop: "-80px", zIndex: '1' }}>
 							<FoxFooter />
 						</div>
 						<Footer />

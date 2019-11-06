@@ -18,7 +18,7 @@ export default class Carousel extends React.Component {
     render() {
         return (
             <div>
-                <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel">
+                <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel" style={{marginLeft: '-33px'}}>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <CarouselImage src="/images/1.png" class="d-block" alt="fox1" />
