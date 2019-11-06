@@ -4,18 +4,16 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'jquery/dist/jquery.min.js'
 import 'bootstrap/dist/js/bootstrap.min.js'
 
-const FoxImage = styled.img`
-    width: 350px;
-    height: 436px;
-    
+const FoxGallery = styled.img`
+    width: 130px;
 `
 
-export default class Foxpic extends React.Component {
+export default class FoxOnGallery extends React.Component {
     render() {
-        return (
+        return(
             <div>
-                <FoxImage src="/images/foxpic.png" alt="Fox image"></FoxImage>
+                <FoxGallery src="/images/foxgallery.png" alt="fox above the carousel"/>
             </div>
         )
     }
-} 
+}

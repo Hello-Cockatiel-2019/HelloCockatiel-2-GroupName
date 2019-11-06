@@ -4,18 +4,17 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'jquery/dist/jquery.min.js'
 import 'bootstrap/dist/js/bootstrap.min.js'
 
-const FoxImage = styled.img`
-    width: 350px;
-    height: 436px;
-    
+const FoxPicFooter = styled.img`
+    width: 190px;
+    height: 197px;
 `
 
-export default class Foxpic extends React.Component {
+export default class FoxFooter extends React.Component {
     render() {
-        return (
+        return(
             <div>
-                <FoxImage src="/images/foxpic.png" alt="Fox image"></FoxImage>
+                <FoxPicFooter src="/images/foxfooter.png" alt="Fox in footer"></FoxPicFooter>
             </div>
         )
     }
-} 
+}

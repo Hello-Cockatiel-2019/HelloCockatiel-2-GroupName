@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Allan&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Itim&display=swap');
 
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 body, html {
@@ -10,7 +12,9 @@ body, html {
     padding: 0;
     width: 100%;
     height: 100%;
-    background-color: #E5E5E5;
+    background-color: #d9c6a6 !important;
+    scroll-behavior: smooth;
+    transition-duration: 2s;
 }
 
 .navbar{
@@ -20,17 +24,17 @@ body, html {
 }
 
 .nav-style {
-    background-color: #474D4F;
+    background-color: #7D7463;
     margin: 0 !important;
     padding: 0 !important;
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
 }
 
 ul.navbar-nav li a {
     border-left: 3px solid #C4C4C4;
-    padding-top: 50px;
-    padding-bottom: 20.5px;
+    padding-top: 26px;
+    padding-bottom: 26px;
     text-decoration: none;
     
 }
@@ -38,7 +42,59 @@ ul.navbar-nav li a {
 ul.navbar-nav li a:hover {
     border-left: 3px solid #C4C4C4;
     padding-top: 50px;
-    padding-bottom: 20.5px;
-    background-color: #3F3F3F;
+    padding-bottom: 26px;
+    background-color: #595243;
     color: white !important;
 }
+
+.link-bg {
+    background: url('/images/Rectangle20.png') no-repeat;
+    background-size: cover;
+    
+}
+
+.link {
+    color: #ffffff !important;
+    text-decoration: none;
+    padding: 10px 50px 10px 50px;
+}
+
+.link:hover {
+    color: #FD8127 !important;
+    text-decoration: none;
+}
+
+.heading {
+    color: #C29679;
+    font-family: 'Allan', cursive;
+    font-size: 37px;
+}
+
+.carousel {
+    width: 800px;
+    height: 533px;
+    margin: 0 auto;
+}
+
+.carousel-item {
+    height: 533px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.slide-indicator {
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.list {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
